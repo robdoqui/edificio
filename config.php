@@ -15,5 +15,6 @@ $conn = new mysqli("127.0.0.1", "root1", "qweartemisa", "edificio");
 // Comprobando si hay un error de conexión.
 if ($conn->connect_error) {
     die( 'Error de conexion ' . $conn->connect_error);
+    ?> <script language="JavaScript">alert("Error de Conección")</script>"; <?php
     exit;
 }
