@@ -18,3 +18,4 @@ if ($conn->connect_error) {
     ?> <script language="JavaScript">alert("Error de Conección")</script>"; <?php
     exit;
 }
+?>
